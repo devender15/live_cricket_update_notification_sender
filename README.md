@@ -7,7 +7,7 @@ Whenever there is any event like batsman hits FOUR or SIX or the bowler gets the
 # Usage
 
 1. Just open file in your powershell window or any terminal by typing "python3 main.py" .
-2. You will see top 3 live matches. They are presented serial wise. So, if you want to get updated of first match then, simply press "1".
+2. You will see top LIVE matches. They are presented serial wise. So, if you want to get updated of first match then, simply press "1".
 3. Now, you are free to do your any other stuff. This programe will do the rest of the work !
 
 
