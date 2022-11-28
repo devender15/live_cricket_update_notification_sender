@@ -1,5 +1,8 @@
 # Live Cricket Updates Notifiyer
-This python program will give you live updates of the ongoing live matches. You can run this program in background and can do your other work :)
+This python program will give you live updates of the ongoing live matches. You can run this program in background and it will keep updating you on your DISCORD SERVER :)
+
+# When it will update?
+Whenever there is any event like batsman hits FOUR or SIX or the bowler gets the WICKET then you will receive the updates along with the score of team.
 
 # Usage
 

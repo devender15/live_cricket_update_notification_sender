@@ -2,11 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import etree, html
 from discord_webhook import DiscordWebhook, DiscordEmbed
-
+from dotenv import load_dotenv
+import os
 
 def send_discord(title, text, color):
-    WH_URL = "https://discord.com/api/webhooks/934155161469861958/9m_Sdcvxwb-kCAkYFTLDtbe79BSPawq3L6CqYnB-J0uq3hadqUeVEaX0zYlMx3m2owlC"
+    load_dotenv()
 
+    WH_URL = os.getenv("WEBHOOK_URL") # importing webhook url from .env file
+    
     wh = DiscordWebhook(url=WH_URL)
     embed = DiscordEmbed(title=title, description=text, color=color)
     wh.add_embed(embed=embed)
